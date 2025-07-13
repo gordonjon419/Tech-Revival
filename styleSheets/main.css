@@ -1,0 +1,127 @@
+/*
+  Author: Jon Gordon
+  Updated: 07/12/2025
+  File: main.css - Global styles for Tech Revival
+*/
+
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0d0d0d;
+  color: #f0f0f0;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #1a1a1a;
+  padding: 0;
+  text-align: center;
+  border-bottom: 3px solid #ff00cc;
+}
+
+.logo-banner {
+  display: block;
+  width: 100%;
+  max-height: 320px;
+  object-fit: cover;
+}
+
+/* Headings */
+h1, h2, h3 {
+  font-family: 'Segoe UI Semibold', sans-serif;
+  color: #ff66cc;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1rem;
+  color: #e0e0e0;
+}
+
+/* Navigation (Optional for future expansion) */
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ff00cc;
+}
+
+/* Buttons Shared */
+.cta-button {
+  display: inline-block;
+  background-color: #ff00cc;
+  color: #ffffff;
+  padding: 12px 24px;
+  margin-top: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #e600b8;
+}
+
+/* Footer */
+footer {
+  background-color: #1a1a1a;
+  color: #cccccc;
+  text-align: center;
+  padding: 30px 20px;
+  font-size: 0.9rem;
+  border-top: 2px solid #333;
+  margin-top: 60px;
+}
+
+footer address {
+  margin-top: 10px;
+  font-style: normal;
+}
+
+footer a {
+  color: #ff99dd;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #ffffff;
+}
+
+/* Responsive Tweaks */
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .cta-button {
+    width: 90%;
+    font-size: 1rem;
+  }
+
+  footer {
+    font-size: 0.8rem;
+    padding: 20px 10px;
+  }
+}

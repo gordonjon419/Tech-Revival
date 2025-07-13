@@ -1,0 +1,60 @@
+/*
+    Author: Jon Gordon
+    Date: 05/17/2025
+    Motorola-specific styles
+*/
+
+#motorola-pricing {
+    background-color: #1f1f1f;
+    padding: 40px 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+#motorola-pricing h2 {
+    color: #ff66cc;
+    font-size: 2.4em;
+    margin-bottom: 30px;
+}
+
+.pricing-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.pricing-list li {
+    display: flex;
+    justify-content: space-between;
+    background-color: #262626;
+    margin-bottom: 10px;
+    padding: 15px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.pricing-list li:hover {
+    background-color: #333333;
+}
+
+.model {
+    font-weight: bold;
+    color: #D5C67A;
+}
+
+.price {
+    font-weight: bold;
+    color: #06A77D;
+}
+
+@media (max-width: 600px) {
+    .pricing-list li {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .price {
+        margin-top: 5px;
+    }
+}
